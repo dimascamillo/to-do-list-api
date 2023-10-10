@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "server": "node --watch src/server.js"
+    "dev": "npx tsx watch src/server.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Dimas Camillo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.23.2",
+    "knex": "^3.0.1",
+    "sqlite3": "^5.1.6"
+  }
 }
