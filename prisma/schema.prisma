@@ -15,6 +15,23 @@ model User {
   id String @id @default(uuid())
   name String
   email String @unique
+  password String
+  created_at DateTime @default(now())
+
+  tasks Tasks[]
 
   @@map("users")
+}
+
+model Tasks {
+  id String @id @default(uuid())
+  title String
+  status Boolean
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  user User @relation(fields: [user_id], references: [id])
+  user_id String
+
+  @@map("tasks")
 }
