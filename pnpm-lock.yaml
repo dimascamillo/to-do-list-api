@@ -8,6 +8,12 @@ dependencies:
   '@prisma/client':
     specifier: 5.4.2
     version: 5.4.2(prisma@5.4.2)
+  '@types/bcryptjs':
+    specifier: 2.4.4
+    version: 2.4.4
+  bcryptjs:
+    specifier: 2.4.3
+    version: 2.4.3
   dotenv:
     specifier: 16.3.1
     version: 16.3.1
@@ -330,6 +336,10 @@ packages:
     resolution: {integrity: sha512-fqeucJ3LH0e1eyFdT0zRx+oETLancu5+n4lhiYECyEz6H2RDskPJHJYHkVc0LhkU4Uv7fuEnppKU3nVKNzMh8g==}
     requiresBuild: true
 
+  /@types/bcryptjs@2.4.4:
+    resolution: {integrity: sha512-9wlJI7k5gRyJEC4yrV7DubzNQFTPiykYxUA6lBtsk5NlOfW9oWLJ1HdIA4YtE+6C3i3mTpDQQEosJ2rVZfBWnw==}
+    dev: false
+
   /@types/node@20.8.4:
     resolution: {integrity: sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==}
     dependencies:
@@ -409,6 +419,10 @@ packages:
 
   /base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+    dev: false
+
+  /bcryptjs@2.4.3:
+    resolution: {integrity: sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==}
     dev: false
 
   /binary-extensions@2.2.0:
